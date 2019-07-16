@@ -2643,9 +2643,15 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+		#header .icons {
+			display:none;
+		}
+
 /* Footer */
 
 	#footer .icons {
+		display: flex;
+		justify-content: flex-end;
 		margin: 1em 0 0 0;
 	}
 
@@ -3040,7 +3046,7 @@ input, select, textarea {
 
 		/* Basic */
 
-			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+			h1 br, h3 br, h4 br, h5 br, h6 br {
 				display: none;
 			}
 
@@ -3072,6 +3078,16 @@ input, select, textarea {
 					#header h1 br {
 						display: inline;
 					}
+
+			#header .icons{
+				display: flex;
+				justify-content: center;
+				margin: 3em 0 0 0;
+			}
+
+			#header .icons a {
+				color: rgba(255, 255, 255, 0.4);
+			}
 
 		/* Footer */
 
